@@ -47,8 +47,8 @@
             <textarea class="form-control" rows="5" placeholder="please input you want name generator" x-model="u"></textarea></p>
             <div class="d-grid gap-2 d-sm-block">
                 <button :class="{ loading }" class="btn btn-primary me-sm-3 " :disabled="loading"
-                    @click="submit($refs)">查询</button>
-                <button class="btn btn-secondary" @click="clear">清理</button>
+                    @click="submit($refs)">search</button>
+                <button class="btn btn-secondary" @click="clear">clean</button>
             </div>
             <p></p>
             <div x-show.transition.opacity="total && total.length > 0" x-cloak class="card mb-3">
